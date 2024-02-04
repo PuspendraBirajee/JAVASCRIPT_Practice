@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>practice1</title>
+	<style type="text/css">
+		.puspendra{
+			background-color: lightgreen;
+			/*padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 5px;
+			padding-bottom: 5px;*/
+			padding: 5px 15px;
+			border: none;
+			border-radius: 10px;
+		}
+		.birajee{
+			padding: 5px 10px;
+			border-radius: 10px;
+			border: 2px solid black;
+	}
+	</style>
+
+</head>
+<body>
+	<main>
+<button class="puspendra" onclick="alert('add to bag')">Add to Bag</button>
+<button class="birajee" onclick="alert('wishlist')">❤️WISHLIST</button>
+<br>
+<p>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+</main>
+<script type="text/javascript">alert('Welcome to my page');</script>
+
+</body>
+</html>
