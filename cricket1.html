@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cricket</title>
+</head>
+<body>
+	<center>
+<h1>Bat Ball Stump Game</h1>
+
+<button onclick="let randomnumber=Math.random()*3;
+let computerchoice,result;
+
+
+if(randomnumber>0 && randomnumber<=1)
+{
+	computerchoice='Bat';
+}
+else if(randomnumber>1 && randomnumber<=2)
+{
+	computerchoice='Ball';
+}
+else
+{
+	computerchoice='Stump';
+}
+
+
+if(computerchoice==='Ball')
+{
+	result='User won';
+}
+else if(computerchoice==='Bat')
+{
+	result='Match tied';
+}
+else
+{
+	result='Computer won';
+}
+
+alert(`User choose to Bat and computer choose to ${computerchoice} and ${result}`);
+
+">Bat</button>
+
+
+
+
+
+<button onclick=" randomnumber=Math.random()*3;
+
+
+if(randomnumber>0 && randomnumber<=1)
+{
+	computerchoice='Bat';
+}
+else if(randomnumber>1 && randomnumber<=2)
+{
+	computerchoice='Ball';
+}
+else
+{
+	computerchoice='Stump';
+}
+
+
+if(computerchoice==='Ball')
+{
+	result='Match tied';
+}
+else if(computerchoice==='Bat')
+{
+	result='Computer won';
+}
+else
+{
+	result='User won';
+}
+
+alert(`User choose to Ball and computer choose to ${computerchoice} and ${result}`);
+
+">Ball</button>
+
+
+
+
+
+<button onclick=" randomnumber=Math.random()*3;
+
+
+if(randomnumber>0 && randomnumber<=1)
+{
+	computerchoice='Bat';
+}
+else if(randomnumber>1 && randomnumber<=2)
+{
+	computerchoice='Ball';
+}
+else
+{
+	computerchoice='Stump';
+}
+
+
+if(computerchoice==='Ball')
+{
+	result='Computer won';
+}
+else if(computerchoice==='Bat')
+{
+	result='USer won';
+}
+else
+{
+	result='Match tied';
+}
+
+alert(`User choose to Stump and computer choose to ${computerchoice} and ${result}`);
+
+">Stump</button>
+
+</center>
+
+
+</body>
+</html>
